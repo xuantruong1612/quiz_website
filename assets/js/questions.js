@@ -643,6 +643,846 @@ const questionBank = [
         "question": "Địa tô tư bản chủ nghĩa là gì?",
         "options": ["Phần giá trị cá biệt ngoài lợi nhuận bình quân của nhà tư bản", "Phần lợi nhuận ngoài lợi nhuận bình quân của nhà tư bản", "Phần giá trị ngoài lợi nhuận bình quân của nhà tư bản", "Phần giá trị thặng dư ngoài lợi nhuận bình quân của nhà tư bản"],
         "correct": 3
+    },
+    {
+        "question": "Lần đầu tiên khái niệm \"tập đoàn kinh tế tư nhân\" xuất hiện trong Văn kiện Đại hội lần thứ mấy của Đảng?",
+        "options": [
+            "Đại hội XII.",
+            "Đại hội XI.",
+            "Đại hội X.",
+            "Đại hội XIII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quan hệ nào có vai trò quyết định đến phân phối?",
+        "options": [
+            "Quan hệ sở hữu tư liệu sản xuất.",
+            "Tất cả những quan hệ trên.",
+            "Quan hệ xã hội, đạo đức.",
+            "Quan hệ tổ chức quản lý."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Lý do nào KHÔNG phải là tất yếu trong phát triển kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?",
+        "options": [
+            "Phù hợp với nhiều hình thức sở hữu, nhiều thành phần kinh tế của Việt Nam.",
+            "Phù hợp với nguyện vọng của người dân Việt Nam.",
+            "Phù hợp với xu hướng phát triển khách quan của Việt Nam.",
+            "Mang tính ưu việt, thúc đẩy phát triển đối với Việt Nam."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Hoàn thiện thể chế về giá, cạnh tranh và kiểm soát độc quyền trong kinh doanh phù hợp với nội dung nào dưới đây?",
+        "options": [
+            "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường.",
+            "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế.",
+            "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa.",
+            "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Vì sao trong thành phần kinh tế dựa trên sở hữu công cộng phải thực hiện phân phối theo lao động?",
+        "options": [
+            "Tất cả những lý do trên đều đúng.",
+            "Vì lực lượng sản xuất phát triển chưa cao.",
+            "Vì còn phân biệt các loại lao động.",
+            "Vì mọi người bình đẳng đối với lực lượng sản xuất."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "\"Quy định cụ thể về quyền của chủ sở hữu và những người liên quan đối với các loại tài sản\" là nội dung phù hợp với chủ trương nào?",
+        "options": [
+            "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế.",
+            "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường.",
+            "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa.",
+            "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Việc ban hành pháp luật về quyền sở hữu đối với các tài sản mới như trí tuệ, cổ phiếu, tài nguyên nước,… là phù hợp với nội dung nào dưới đây?",
+        "options": [
+            "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế.",
+            "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường.",
+            "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường.",
+            "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Biện pháp \"Mở rộng các lĩnh vực độc quyền nhà nước\" là trái với nội dung nào dưới đây?",
+        "options": [
+            "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế.",
+            "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường.",
+            "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa.",
+            "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Biện pháp \"Đổi mới cơ chế quản lý khoa học và công nghệ\" phù hợp với nội dung nào dưới đây?",
+        "options": [
+            "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường.",
+            "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế.",
+            "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa.",
+            "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Khái niệm \"Kinh tế thị trường định hướng xã hội chủ nghĩa\" bắt đầu sử dụng trong Văn kiện Đại hội lần thứ mấy của Đảng?",
+        "options": [
+            "Đại hội IX.",
+            "Đại hội VIII.",
+            "Đại hội VI.",
+            "Đại hội VII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Biện pháp \"Xử lý triệt để những điểm ô nhiễm môi trường nghiêm trọng và ngăn chặn để không phát sinh thêm\" phù hợp với chủ trương nào dưới đây?",
+        "options": [
+            "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường.",
+            "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế.",
+            "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa.",
+            "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Kinh tế tư nhân là một thành phần kinh tế trên cơ sở hợp nhất hai thành phần kinh tế: cá thể, tiểu chủ và tư bản tư nhân, chính thức được xác nhận trong Văn kiện Đại hội lần thứ mấy của Đảng?",
+        "options": [
+            "Đại hội X.",
+            "Đại hội VIII.",
+            "Đại hội XI.",
+            "Đại hội IX."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Yếu tố nào trong các yếu tố sau đây không thuộc thể chế kinh tế thị trường?",
+        "options": [
+            "Các quy luật kinh tế tác động trong nền kinh tế thị trường.",
+            "Các thị trường - nơi hàng hoá được giao dịch, trao đổi trên cơ sở yêu cầu, quy định của luật lệ.",
+            "Cách thực hiện các quy tắc nhằm đạt mục tiêu hay kết quả mà các bên tham gia thị trường mong muốn.",
+            "Các quy tắc về hành vi kinh tế diễn ra trên thị trường các bên tham gia thị trường với tư cách là các chủ thể thị trường."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quan điểm: \"Nền kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam là nền kinh tế vận hành đầy đủ, đồng bộ theo các quy luật của kinh tế thị trường, đồng thời bảo đảm định hướng xã hội chủ nghĩa phù hợp với từng giai đoạn phát triển của đất nước. Đó là nền kinh tế thị trường hiện đại và hội nhập quốc tế; có sự quản lý của nhà nước pháp quyền xã hội chủ nghĩa, do Đảng Cộng sản Việt Nam lãnh đạo, nhằm mục tiêu \"dân giàu, nước mạnh, dân chủ, công bằng, văn minh\"\", được Đảng ta khẳng định trong Đại hội lần thứ mấy?",
+        "options": [
+            "Đại hội XII.",
+            "Đại hội X.",
+            "Đại hội XI.",
+            "Đại hội XIII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Bắt đầu từ Đại hội nào Đảng ta khẳng định: \"Việt Nam là bạn, đối tác tin cậy của các nước trong cộng đồng quốc tế, tham gia tích cực vào tiến trình hợp tác quốc tế và khu vực\"?",
+        "options": [
+            "Đại hội X.",
+            "Đại hội VIII.",
+            "Đại hội IX.",
+            "Đại hội VII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Bắt đầu từ Đại hội nào Đảng ta khẳng định: \"Việt Nam sẵn sàng là bạn, là đối tác tin cậy của các nước trong cộng đồng quốc tế, phấn đấu vì hoà bình, độc lập và phát triển\"?",
+        "options": [
+            "Đại hội IX.",
+            "Đại hội VIII.",
+            "Đại hội X.",
+            "Đại hội VII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Việt Nam tham gia sáng lập Diễn đàn hợp tác Á - Âu (ASEM) vào năm nào?",
+        "options": [
+            "Năm 1996.",
+            "Năm 1995.",
+            "Năm 1993.",
+            "Năm 1994."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Một thực tế không thể đảo ngược của toàn cầu hóa là gì?",
+        "options": [
+            "Những mối liên hệ phụ thuộc lẫn nhau.",
+            "Xu thế đối thoại.",
+            "Xu thế chủ quan.",
+            "Xu thế khách quan."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Việt Nam gia nhập Hiệp hội các quốc gia Đông Nam Á (ASEAN) vào năm nào?",
+        "options": [
+            "Năm 1995.",
+            "Năm 1993.",
+            "Năm 1996.",
+            "Năm 1994."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nhận thức về công nghiệp hóa ở Việt Nam đã trải qua nhiều mốc phát triển kể từ Đại hội III của Đảng (năm 1960) đến nay. Mốc nhận thức nào dưới đây đã được xuất hiện tại Đại hội X của Đảng (năm 2006)?",
+        "options": [
+            "Công nghiệp hóa được nhận thức là \"công nghiệp hóa, hiện đại hóa gắn với phát triển kinh tế tri thức trong thể chế kinh tế thị trường định hướng xã hội chủ nghĩa và hội nhập kinh tế quốc tế\".",
+            "Công nghiệp hóa được nhận thức là \"công nghiệp hóa, hiện đại hóa từng bước gắn với phát triển kinh tế tri thức\".",
+            "Công nghiệp hóa được nhận thức là \"công nghiệp hóa, hiện đại hóa\".",
+            "Giai đoạn chuẩn bị các tiền đề công nghiệp hóa đất nước đã cơ bản hoàn thành, cho phép nước ta chuyển sang giai đoạn đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Thách thức lớn nhất mà Việt Nam phải đối mặt với toàn cầu hóa là gì?",
+        "options": [
+            "Sự chênh lệch về trình độ khi tham gia hội nhập.",
+            "Sử dụng chưa hiệu quả các nguồn vốn từ bên ngoài.",
+            "Sự cạnh tranh quyết liệt từ thị trường thế giới.",
+            "Sự bất bình đẳng trong quan hệ quốc tế."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Sai lầm nào sau đây chứng tỏ tư tưởng chỉ đạo chủ quan, nóng vội trong công nghiệp hóa của Đảng thời kỳ trước đổi mới (12/1986)?",
+        "options": [
+            "Đã chủ trương đẩy mạnh công nghiệp hóa trong khi chưa có đủ các tiền đề cần thiết.",
+            "Chúng ta đã xác định đúng mục tiêu và bước đi về xây dựng cơ sở vật chất - kỹ thuật.",
+            "Trong việc bố trí cơ cấu kinh tế thường chỉ xuất phát từ lòng mong muốn đi nhanh.",
+            "Không tập trung giải quyết vấn đề cơ bản là lương thực, thực phẩm, hàng tiêu dùng và hàng xuất khẩu."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Trong các chuyển dịch mạnh cơ cấu nông nghiệp và phát triển kinh tế nông thôn, chuyển dịch nào dưới đây nhằm đưa nông thôn thoát nghèo trở thành khá giả?",
+        "options": [
+            "Tạo ra giá trị gia tăng ngày càng cao.",
+            "Gắn với công nghiệp chế biến và thị trường.",
+            "Đẩy nhanh tiến bộ khoa học - kỹ thuật và công nghệ sinh học vào sản xuất nông nghiệp.",
+            "Nâng cao năng suất, chất lượng và sức cạnh tranh của nông sản hàng hóa, phù hợp đặc điểm từng vùng, từng địa phương."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Trong các chuyển dịch mạnh cơ cấu nông nghiệp và phát triển kinh tế nông thôn, chuyển dịch nào dưới đây giải quyết tốt đầu ra cho nông nghiệp?",
+        "options": [
+            "Gắn với công nghiệp chế biến và thị trường.",
+            "Tạo ra giá trị gia tăng ngày càng cao.",
+            "Nâng cao năng suất, chất lượng của nông sản hàng hóa.",
+            "Ứng dụng công nghệ sinh học vào sản xuất nông nghiệp."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Ở thời kỳ trước đổi mới (12/1986), sai lầm nào sau đây chứng tỏ bệnh chủ quan, duy ý chí trong bố trí cơ cấu kinh tế?",
+        "options": [
+            "Trong việc bố trí cơ cấu kinh tế thường chỉ xuất phát từ lòng mong muốn đi nhanh.",
+            "Đã chủ trương đẩy mạnh công nghiệp hóa trong khi chưa có đủ các tiền đề cần thiết.",
+            "Chúng ta đã xác định đúng mục tiêu và bước đi về xây dựng cơ sở vật chất - kỹ thuật.",
+            "Không tập trung giải quyết vấn đề cơ bản là lương thực, thực phẩm, hàng tiêu dùng và hàng xuất khẩu."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nội dung nào KHÔNG đúng với chủ trương: \"Sản phẩm nghiên cứu khoa học của cơ quan và cá nhân do Nhà nước đặt hàng và Nhà nước nghiệm thu\"?",
+        "options": [
+            "Hệ thống thị trường phát triển hoàn hảo.",
+            "Có hệ thống pháp quy kiện toàn.",
+            "Các chủ thể kinh tế phải có tính độc lập.",
+            "Giá cả cơ bản do cung - cầu điều tiết."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Tìm câu trả lời chính xác nhất cho câu hỏi về cơ chế thị trường là gì?",
+        "options": [
+            "Là cơ chế điều tiết nền kinh tế theo các quy luật của kinh tế thị trường.",
+            "Là cơ chế điều tiết nền kinh tế theo các quy luật kinh tế.",
+            "Là cơ chế thị trường do \"bàn tay vô hình\" chi phối.",
+            "Là cơ chế điều tiết nền kinh tế tự phát."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Yếu tố nào quy định tính lịch sử của quan hệ phân phối?",
+        "options": [
+            "Quan hệ sản xuất.",
+            "Kiến trúc thượng tầng.",
+            "Phương thức sản xuất.",
+            "Lực lượng sản xuất."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Chính sách \"Thực hiện một mặt bằng pháp lý kinh doanh, không phân biệt hình thức sở hữu, thành phần kinh tế\" là phù hợp với nội dung nào dưới đây?",
+        "options": [
+            "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế.",
+            "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường.",
+            "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa.",
+            "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Trong những đặc điểm chủ yếu sau đây của kinh tế thị trường, đặc điểm nào trái với chủ trương \"Giá sản phẩm của doanh nghiệp phải trình Chính phủ phê duyệt\"?",
+        "options": [
+            "Giá cả cơ bản do cung - cầu điều tiết.",
+            "Hệ thống thị trường phát triển hoàn hảo.",
+            "Các chủ thể kinh tế phải có tính độc lập.",
+            "Có hệ thống pháp quy kiện toàn."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đại hội IX của Đảng xác định nền kinh tế nước ta có mấy thành phần?",
+        "options": [
+            "Có 6 thành phần.",
+            "Có 5 thành phần.",
+            "Có 3 thành phần.",
+            "Có 4 thành phần."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Hiện nay ở nước ta đang phát triển mấy thành phần kinh tế?",
+        "options": [
+            "Năm thành phần.",
+            "Ba thành phần.",
+            "Bốn thành phần.",
+            "Sáu thành phần."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Về cơ chế quản lý kinh tế, đặc điểm nào sau đây làm cho các chủ thể kinh tế không có tính độc lập trong thị trường?",
+        "options": [
+            "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định.",
+            "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát – giao nộp\" và cơ chế \"xin - cho\".",
+            "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu.",
+            "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Kinh tế thị trường không phải là cái riêng có của chủ nghĩa tư bản, mà nó còn tồn tại trong thời kỳ quá độ lên chủ nghĩa xã hội. Lập luận nào dưới đây là minh chứng chắc chắn nhất cho nhận thức về kinh tế thị trường thời kỳ đổi mới ở Việt Nam?",
+        "options": [
+            "Kinh tế thị trường đã hình thành trong xã hội phong kiến.",
+            "Kinh tế thị trường đã có mầm mống từ trong xã hội nô lệ.",
+            "Kinh tế thị trường vừa có thể liên hệ với chế độ tư hữu, vừa có thể liên hệ với chế độ công hữu và phục vụ cho chế độ ấy.",
+            "Kinh tế thị trường có biểu hiện rõ rệt nhất trong chủ nghĩa tư bản, chi phối toàn bộ cuộc sống con người trong xã hội đó."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quan điểm: \"Kinh tế thị trường định hướng xã hội chủ nghĩa là mô hình kinh tế tổng quát của nước ta trong thời kỳ quá độ lên chủ nghĩa xã hội. Đó là nền kinh tế thị trường hiện đại, hội nhập quốc tế, vận hành đầy đủ, đồng bộ theo các quy luật của kinh tế thị trường, có sự quản lý của Nhà nước pháp quyền xã hội chủ nghĩa, do Đảng Cộng sản Việt Nam lãnh đạo; bảo đảm định hướng xã hội chủ nghĩa vì mục tiêu \"dân giàu, nước mạnh, dân chủ, công bằng, văn minh\" phù hợp với từng giai đoạn phát triển của đất nước \", được Đảng ta khẳng định trong Đại hội lần thứ mấy?",
+        "options": [
+            "Đại hội XIII.",
+            "Đại hội XI.",
+            "Đại hội X.",
+            "Đại hội XII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Việt Nam tham gia Diễn đàn Hợp tác Kinh tế châu Á – Thái Bình Dương (APEC) vào năm nào?",
+        "options": [
+            "Năm 1998.",
+            "Năm 1995.",
+            "Năm 2001.",
+            "Năm 1996."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đặc điểm khác nhau căn bản giữa cuộc cách mạng khoa học kỹ thuật ngày nay với cuộc cách mạng công nghiệp thế kỷ XVIII, IX là gì?",
+        "options": [
+            "Mọi phát minh kỹ thuật dựa trên các nghiên cứu khoa học.",
+            "Mọi phát minh kỹ thuật đều bắt nguồn từ đòi hỏi của cuộc sống.",
+            "Mọi phát minh kỹ thuật dựa trên ngành khoa học cơ bản.",
+            "Mọi phát minh kỹ thuật đều bắt nguồn từ thực tiễn kinh nghiệm."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Tổ chức nào không phải là biểu hiện của xu thế toàn cầu hóa?",
+        "options": [
+            "Hiệp ước thương mại tự do Bắc Mỹ (NAFTA).",
+            "Diễn đàn hợp tác Á – Âu (ASEM).",
+            "Tổ chức hiệp ước Bắc Đại Tây Dương (NATO).",
+            "Hiệp định thương mại tự do (ASEAN)."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Vì sao cuộc cách mạng khoa học kỹ thuật giai đoạn thứ hai có thể gọi là cuộc cách mạng khoa học công nghệ?",
+        "options": [
+            "Vì cách mạng công nghiệp trở thành cốt lõi của cách mạng khoa học kỹ thuật.",
+            "Vì phát hiện ra những nguồn năng lượng mới và công nghệ sinh học.",
+            "Vì gần với sự ra đời của máy tính điện tử.",
+            "Vì đã tìm ra nhiều vật liệu mới."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đánh giá về kết quả thực hiện nhiệm vụ phát triển kinh tế - xã hội, Đảng ta cho rằng: \"Hội nhập quốc tế chưa được triển khai đồng đều, hiệu quả tổng hợp chưa cao\". Nhận định đó thuộc nội dung nào dưới đây?",
+        "options": [
+            "Về quốc phòng, an ninh và đối ngoại.",
+            "Về hiệu lực quản lý nhà nước.",
+            "Về cơ cấu lại nền kinh tế.",
+            "Về thực hiện các đột phá chiến lược."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Trong các chuyển dịch mạnh cơ cấu nông nghiệp và phát triển kinh tế nông thôn, chuyển dịch nào dưới đây nói lên thực chất của công nghiệp hóa, hiện đại hóa nông nghiệp và kinh tế nông thôn?",
+        "options": [
+            "Đẩy nhanh tiến bộ khoa học kỹ thuật và công nghệ sinh học vào sản xuất nông nghiệp.",
+            "Công nghiệp hóa, hiện đại hóa nông nghiệp, tạo ra giá trị gia tăng ngày càng cao.",
+            "Công nghiệp hóa, hiện đại hóa nông nghiệp, gắn với công nghiệp chế biến và thị trường.",
+            "Nâng cao năng suất, chất lượng và sức cạnh tranh của nông sản hàng hóa, phù hợp đặc điểm từng vùng, từng địa phương."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Một trong những nội dung cơ bản của công nghiệp hóa, hiện đại hóa ở nước ta là gì?",
+        "options": [
+            "Phát triển mạnh mẽ lực lượng sản xuất.",
+            "Phát triển mạnh mẽ khoa học kỹ thuật.",
+            "Phát triển mạnh mẽ ngành công nghiệp cơ khí.",
+            "Phát triển mạnh mẽ công nghệ thông tin."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quan điểm phát triển kinh tế - xã hội là: \"Đẩy mạnh cơ cấu lại công nghiệp, tạo nền tảng cho công nghiệp hóa, hiện đại hóa\" được trình bày trong Văn kiện Đại hội lần thứ mấy của Đảng Cộng sản Việt Nam?",
+        "options": [
+            "Văn kiện Đại hội XII.",
+            "Văn kiện Đại hội XIII.",
+            "Văn kiện Đại hội XI.",
+            "Văn kiện Đại hội X."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quan điểm phát triển kinh tế - xã hội là: \"Phát triển nhanh, bền vững, phấn đấu sớm đưa nước ta cơ bản trở thành nước công nghiệp theo hướng hiện đại\" được trình bày trong Văn kiện Đại hội lần thứ mấy của Đảng Cộng sản Việt Nam?",
+        "options": [
+            "Văn kiện Đại hội XII.",
+            "Văn kiện Đại hội XI.",
+            "Văn kiện Đại hội X.",
+            "Văn kiện Đại hội XIII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nhận thức về công nghiệp hóa ở Việt Nam rằng: \"Công nghiệp hóa, hiện đại hóa gắn với phát triển kinh tế tri thức trong thể chế kinh tế thị trường định hướng xã hội chủ nghĩa và hội nhập kinh tế quốc tế\" được trình bày trong Văn kiện Đại hội lần thứ mấy của Đảng Cộng sản Việt Nam?",
+        "options": [
+            "Đại hội X.",
+            "Đại hội IX.",
+            "Đại hội XII.",
+            "Đại hội XI."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nội dung nào không thuộc nội hàm của khái niệm \"kinh tế thị trường định hướng xã hội chủ nghĩa\" theo quan điểm của Đảng Cộng sản Việt Nam?",
+        "options": [
+            "Là nền kinh tế có những đặc trưng phản ánh điều kiện lịch sử, chính trị, kinh tế xã hội.",
+            "Là nền kinh tế có sự điều tiết của Nhà nước do Đảng Cộng sản Việt Nam lãnh đạo.",
+            "Là nền kinh tế vận hành theo các quy luật của thị trường.",
+            "Là nền kinh tế hướng tới xác lập một xã hội dân giàu, nước mạnh, dân chủ, công bằng, văn minh."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Phân phối theo lao động căn cứ vào số lượng, chất lượng lao động làm cơ sở. Chất lượng lao động biểu hiện ở đâu?",
+        "options": [
+            "Năng suất lao động.",
+            "Cường độ lao động.",
+            "Tất cả những yếu tố trên.",
+            "Thời gian lao động."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đại hội Đảng toàn quốc lần thứ IX đã xác định, ở nước ta có những thành phần kinh tế nào sau đây?",
+        "options": [
+            "Nhà nước, tập thể, tư bản nhà nước, tư bản tư nhân, cá thể tiểu chủ, có vốn đầu tư nước ngoài.",
+            "Nhà nước, tập thể, tư nhân, tư bản nhà nước, tư bản tư nhân, có vốn đầu tư nước ngoài.",
+            "Nhà nước, tập thể, ngoài nhà nước, tư bản tư nhân, tư bản nhà nước, có vốn đầu tư nước ngoài.",
+            "Nhà nước, tập thể, tư nhân, cá thể tiểu chủ, tư bản tư nhân, có vốn đầu tư nước ngoài."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Việt Nam tham gia Khu vực thương mại tự do ASEAN (AFTA) vào năm nào?",
+        "options": [
+            "Năm 1996.",
+            "Năm 1994.",
+            "Năm 1995.",
+            "Năm 1993."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Chủ trương chủ động và tích cực hội nhập kinh tế quốc tế là trực tiếp xuất phát từ cơ sở nào?",
+        "options": [
+            "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển.",
+            "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam.",
+            "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta.",
+            "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Điểm nào dưới đây là tác động tiêu cực của xu thế toàn cầu hóa đối với Việt Nam?",
+        "options": [
+            "Góp phần chuyển biến cơ cấu kinh tế - xã hội.",
+            "Sự phát triển và tác động to lớn của các công ty xuyên quốc gia.",
+            "Sự sáp nhập và hợp nhất của các công ty thành những tập đoàn lớn.",
+            "Làm trầm trọng thêm sự bất công trong xã hội, phân hóa giàu nghèo trong một nước và giữa các nước."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Trong các đặc trưng chủ yếu của công nghiệp hóa thời kỳ trước đổi mới, đặc trưng nào sau đây khiến cho chủ lực thực hiện công nghiệp hóa chỉ là Nhà nước?",
+        "options": [
+            "Tiến hành công nghiệp hóa thông qua cơ chế kế hoạch hóa tập trung quan liêu, bao cấp.",
+            "Công nghiệp hóa chủ yếu dựa vào lợi thế về lao động, tài nguyên, đất đai và nguồn viện trợ của các nước xã hội chủ nghĩa.",
+            "Ham làm nhanh, làm lớn, không quan tâm đến hiệu quả kinh tế - xã hội.",
+            "Công nghiệp hóa thiên về phát triển công nghiệp nặng."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đánh giá về kết quả thực hiện nhiệm vụ phát triển kinh tế - xã hội: \"Cơ cấu công nghiệp dịch chuyển đúng hướng và tích cực,… phù hợp với mục tiêu phát triển bền vững\" được trình bày trong Văn kiện Đại hội lần thứ mấy của Đảng Cộng sản Việt Nam?",
+        "options": [
+            "Văn kiện Đại hội XIII.",
+            "Văn kiện Đại hội X.",
+            "Văn kiện Đại hội XI.",
+            "Văn kiện Đại hội XII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Về cơ chế quản lý kinh tế, đặc điểm nào sau đây sinh ra nhiều yếu kém, khuyết điểm trong bộ máy quản lý?",
+        "options": [
+            "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu.",
+            "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát - giao nộp\" và cơ chế \"xin - cho\".",
+            "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định.",
+            "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Ở nước ta hiện nay thực hiện theo nguyên tắc phân phối chủ yếu nào?",
+        "options": [
+            "Phân phối theo lao động.",
+            "Phân phối theo vốn hay tài sản.",
+            "Phân phối theo kết quả sản xuất kinh doanh.",
+            "Phân phối theo giái trị sức lao động."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Về tác dụng của việc đổi mới cơ chế quản lý kinh tế, phương án nào KHÔNG đúng?",
+        "options": [
+            "Sinh ra nhiều hiện tượng tiêu cực trong xã hội.",
+            "Thúc đẩy lực lượng sản xuất phát triển.",
+            "Tăng năng suất, chất lượng, hiệu quả.",
+            "Tạo được động lực phát triển."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Trong những đặc điểm chủ yếu sau đây của kinh tế thị trường, đặc điểm nào trái với chủ trương \"Sản phẩm nghiên cứu khoa học của cơ quan và cá nhân do Nhà nước đặt hàng và Nhà nước nghiệm thu\"?",
+        "options": [
+            "Hệ thống thị trường phát triển hoàn hảo.",
+            "Các chủ thể kinh tế phải có tính độc lập.",
+            "Giá cả cơ bản do cung - cầu điều tiết.",
+            "Có hệ thống pháp quy kiện toàn."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đại hội nào của Đảng đề ra chủ trương \"Chủ động và tích cực hội nhập kinh tế quốc tế\"?",
+        "options": [
+            "Đại hội X.",
+            "Đại hội VIII.",
+            "Đại hội IX.",
+            "Đại hội VII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Mặt hạn chế trong quá trình diễn ra cuộc cách mạng khoa học công nghệ là gì?",
+        "options": [
+            "Chế tạo ra vũ khí hiện đại có sức công phá lớn.",
+            "Làm thay đổi chất lượng nguồn nhân lực.",
+            "Làm thay đổi cơ cấu dân cư.",
+            "Sự hình thành một thị trường thế giới với xu thế toàn cầu hóa."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quan điểm phát triển kinh tế - xã hội là: \"Nâng cao hiệu quả hoạt động đối ngoại, chủ động hội nhập quốc tế, giữ vững môi trường hòa bình và tạo điều kiện thuận lợi để phát triển đất nước\" được trình bày trong Văn kiện Đại hội lần thứ mấy của Đảng Cộng sản Việt Nam?",
+        "options": [
+            "Văn kiện Đại hội XII.",
+            "Văn kiện Đại hội XI.",
+            "Văn kiện Đại hội X.",
+            "Văn kiện Đại hội XIII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Trong các đặc trưng chủ yếu của công nghiệp hóa thời kỳ trước đổi mới, đặc trưng nào sau đây nhìn chung là xuất phát từ nguồn lực sẵn có của Việt Nam?",
+        "options": [
+            "Công nghiệp hóa chủ yếu dựa vào lợi thế về lao động, tài nguyên, đất đai và nguồn viện trợ của các nước xã hội chủ nghĩa.",
+            "Tiến hành công nghiệp hóa thông qua cơ chế kế hoạch hóa tập trung quan liêu, bao cấp.",
+            "Công nghiệp hóa thiên về phát triển công nghiệp nặng.",
+            "Ham làm nhanh, làm lớn, không quan tâm đến hiệu quả kinh tế - xã hội."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quan điểm phát triển kinh tế - xã hội là: \"Phát huy cao nhất các nguồn lực trong nước, đồng thời chủ động hội nhập quốc tế, huy động và sử dụng có hiệu quả các nguồn lực bên ngoài để phát triển nhanh, bền vững\" được trình bày trong Văn kiện Đại hội lần thứ mấy của Đảng Cộng sản Việt Nam?",
+        "options": [
+            "Văn kiện Đại hội XII.",
+            "Văn kiện Đại hội XIII.",
+            "Văn kiện Đại hội XI.",
+            "Văn kiện Đại hội X."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đại hội Đảng toàn quốc lần thứ X đã xác định, ở nước ta có những thành phần kinh tế nào sau đây?",
+        "options": [
+            "Nhà nước, tập thể, tư nhân, tư bản nhà nước, có vốn đầu tư nước ngoài.",
+            "Nhà nước, tập thể, cá thể tiểu chủ, tư bản nhà nước, có vốn đầu tư nước ngoài.",
+            "Nhà nước, tập thể, tư bản tư nhân, tư bản nhà nước, có vốn đầu tư nước ngoài.",
+            "Nhà nước, tập thể, cá thể tiểu chủ, tư bản tư nhân, có vốn đầu tư nước ngoài."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Tác hại nào rất khó đẩy lùi và vẫn còn kéo dài đến nay, do cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra?",
+        "options": [
+            "Làm giảm năng suất, chất lượng, hiệu quả.",
+            "Không thúc đẩy sản xuất.",
+            "Sinh ra nhiều hiện tượng tiêu cực trong xã hội.",
+            "Không tạo được động lực phát triển."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Kinh tế tư nhân, với tư cách là một thành phần kinh tế, đã được nâng lên một tầm mới trong Văn kiện Đại hội lần thứ mấy của Đảng?",
+        "options": [
+            "Đại hội XIII.",
+            "Đại hội XI.",
+            "Đại hội VI.",
+            "Đại hội IX."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Lập luận nào dưới đây chưa rõ ràng về kinh tế thị trường?",
+        "options": [
+            "Kinh tế thị trường vừa có thể liên hệ với chế độ tư hữu, vừa có thể liên hệ với chế độ công hữu và phục vụ cho chế độ ấy.",
+            "Kinh tế thị trường đã có mầm mống từ trong xã hội nô lệ.",
+            "Kinh tế thị trường có biểu hiện rõ rệt nhất trong chủ nghĩa tư bản, chi phối toàn bộ cuộc sống con người trong xã hội đó.",
+            "Kinh tế thị trường đã hình thành trong xã hội phong kiến."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nội dung nào chưa chính xác khi đánh giá về nhận thức và chủ trương công nghiệp hóa thời kỳ trước đổi mới (12/1986)?",
+        "options": [
+            "Chúng ta đã xác định đúng mục tiêu và bước đi về xây dựng cơ sở vật chất - kỹ thuật.",
+            "Trong việc bố trí cơ cấu kinh tế thường chỉ xuất phát từ lòng mong muốn đi nhanh.",
+            "Đã chủ trương đẩy mạnh công nghiệp hóa trong khi chưa có đủ các tiền đề cần thiết.",
+            "Kinh tế thị trường đã hình thành trong xã hội phong kiến."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đánh giá về kết quả thực hiện nhiệm vụ phát triển kinh tế - xã hội: \"Kinh tế tăng trưởng từng bước vững chắc và ngày càng được cải thiện, quy mô kinh tế ngày càng mở rộng, các cân đối lớn của nền kinh tế được bảo đảm\" được trình bày trong Văn kiện Đại hội lần thứ mấy của Đảng Cộng sản Việt Nam?",
+        "options": [
+            "Văn kiện Đại hội XIII.",
+            "Văn kiện Đại hội X.",
+            "Văn kiện Đại hội XI.",
+            "Văn kiện Đại hội XII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra nhiều tác hại. Tác hại nào làm cho đất nước nghèo đi, kinh tế khủng hoảng?",
+        "options": [
+            "Làm giảm năng suất, chất lượng, hiệu quả.",
+            "Không tạo được động lực phát triển.",
+            "Không thúc đẩy sản xuất.",
+            "Sinh ra nhiều hiện tượng tiêu cực trong xã hội."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đánh giá về kết quả thực hiện nhiệm vụ phát triển kinh tế - xã hội, Đảng ta cho rằng: \"Phát triển nông nghiệp vẫn còn những yếu tố thiếu bền vững, tăng trưởng chưa vững chắc\". Nhận định đó thuộc nội dung nào dưới đây?",
+        "options": [
+            "Về cơ cấu lại nền kinh tế.",
+            "Về quốc phòng, an ninh và đối ngoại.",
+            "Về thực hiện các đột phá chiến lược.",
+            "Về hiệu lực quản lý nhà nước."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Trong các đặc trưng chủ yếu của công nghiệp hóa thời kỳ trước đổi mới, đặc trưng nào sau đây chứng tỏ bệnh chủ quan, duy ý chí trong công nghiệp hóa?",
+        "options": [
+            "Ham làm nhanh, làm lớn, không quan tâm đến hiệu quả kinh tế - xã hội.",
+            "Công nghiệp hóa chủ yếu dựa vào lợi thế về lao động, tài nguyên, đất đai và nguồn viện trợ của các nước xã hội chủ nghĩa.",
+            "Công nghiệp hóa thiên về phát triển công nghiệp nặng.",
+            "Tiến hành công nghiệp hóa thông qua cơ chế kế hoạch hóa tập trung quan liêu, bao cấp."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Sự quản lý của nhà nước trong kinh tế thị trường định hướng xã hội chủ nghĩa và kinh tế thị trường tư bản chủ nghĩa khác nhau chủ yếu ở những lý do nào?",
+        "options": [
+            "Khác nhau ở mục tiêu, bản chất và công cụ quản lý.",
+            "Khác nhau ở bản chất, công cụ quản lý của nhà nước.",
+            "Khác nhau ở mục tiêu phát triển kinh tế - xã hội.",
+            "Khác nhau ở mục tiêu, các công cụ quản lý vĩ mô."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Về cơ chế quản lý kinh tế, đặc điểm nào sau đây tạo ra tâm lý ỷ lại, thụ động, tiêu cực trong hoạt động kinh tế?",
+        "options": [
+            "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát - giao nộp\" và cơ chế \"xin - cho\".",
+            "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới.",
+            "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu.",
+            "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Lập luận nào dưới đây chưa rõ ràng về kinh tế thị trường?",
+        "options": [
+            "Kinh tế thị trường vừa có thể liên hệ với chế độ tư hữu, vừa có thể liên hệ với chế độ công hữu và phục vụ cho chế độ ấy.",
+            "Kinh tế thị trường có biểu hiện rõ rệt nhất trong chủ nghĩa tư bản, chi phối toàn bộ cuộc sống con người trong xã hội đó.",
+            "Kinh tế thị trường đã hình thành trong xã hội phong kiến.",
+            "Kinh tế thị trường đã có mầm mống từ trong xã hội nô lệ."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đánh giá về kết quả thực hiện nhiệm vụ phát triển kinh tế - xã hội, Đảng ta cho rằng: \"Phát triển công nghiệp chưa đáp ứng được yêu cầu công nghiệp hóa, hiện đại hóa, thiếu tính bền vững\". Nhận định đó thuộc nội dung nào dưới đây?",
+        "options": [
+            "Về cơ cấu lại nền kinh tế.",
+            "Về hiệu lực quản lý nhà nước.",
+            "Về thực hiện các đột phá chiến lược.",
+            "Về quốc phòng, an ninh và đối ngoại."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quan điểm: \"Kinh tế thị trường định hướng xã hội chủ nghĩa là mô hình kinh tế tổng quát của thời kỳ quá độ lên chủ nghĩa xã hội ở nước ta\" được trình bày trong Văn kiện Đại hội lần thứ mấy của Đảng?",
+        "options": [
+            "Đại hội VI.",
+            "Đại hội VIII.",
+            "Đại hội IX.",
+            "Đại hội VII."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nhận thức về công nghiệp hóa ở Việt Nam đã trải qua nhiều mốc phát triển kể từ Đại hội III của Đảng (năm 1960) đến nay. Mốc nhận thức nào dưới đây là đầy đủ nhất?",
+        "options": [
+            "Công nghiệp hóa được nhận thức là \"công nghiệp hóa, hiện đại hóa gắn với phát triển kinh tế tri thức trong thể chế kinh tế thị trường định hướng xã hội chủ nghĩa và hội nhập quốc tế\".",
+            "Công nghiệp hóa được nhận thức là \"công nghiệp hóa, hiện đại hóa\".",
+            "Giai đoạn chuẩn bị các tiền đề công nghiệp hóa đất nước đã cơ bản hoàn thành, cho phép nước ta chuyển sang giai đoạn đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước.",
+            "Công nghiệp hóa được nhận thức là \"công nghiệp hóa, hiện đại hóa từng bước gắn với phát triển kinh tế tri thức\"."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Việt Nam chính thức trở thành thành viên của Tổ chức thương mại thế giới (WTO) vào năm nào?",
+        "options": [
+            "Năm 2007.",
+            "Năm 2005.",
+            "Năm 2006.",
+            "Năm 2008."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Tìm phương án trả lời đúng về nội dung đảm bảo hài hòa các lợi ích kinh tế trong phát triển kinh tế ở nước ta?",
+        "options": [
+            "Cả A, B, C đều đúng.",
+            "Tạo điều kiện gia tăng thu nhập cho các chủ thể.",
+            "Hạn chế mâu thuẫn về lợi ích kinh tế giữa các chủ thể.",
+            "Xử lý xung đột do mâu thuẫn giữa các lợi ích kinh tế."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đặc điểm lớn nhất của cuộc cách mạng khoa học kỹ thuật ngày nay là gì?",
+        "options": [
+            "Khoa học trở thành lực lượng sản xuất trực tiếp.",
+            "Đạt được nhiều thành tựu rực rỡ trên nhiều lĩnh vực.",
+            "Đưa loài người bước vào nền văn minh hậu công nghiệp.",
+            "Đưa loài người bước vào nền văn minh trí tuệ."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Công nghiệp hóa, hiện đại hóa có tác dụng gì?",
+        "options": [
+            "Tạo điều kiện để phát triển lực lượng sản xuất và tăng năng suất lao động xã hội.",
+            "Đưa nước ta ra khỏi tình trạng kém phát triển.",
+            "Tạo điều kiện để nước ta hội nhập kinh tế quốc tế.",
+            "Nâng cao uy tín của nước ta trên trường quốc tế."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Cuộc cách mạng khoa học kỹ thuật hiện đại diễn ra từ những năm 40 của thế kỷ XX và khởi đầu từ nước nào?",
+        "options": [
+            "Anh.",
+            "Đức.",
+            "Mỹ.",
+            "Pháp."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đi đôi với chuyển dịch cơ cấu kinh tế phải chuyển dịch cơ cấu lao động theo hướng công nghiệp hóa, hiện đại hóa gắn với phát triển yếu tố nào sau đây?",
+        "options": [
+            "Kinh tế tri thức.",
+            "Kinh tế thị trường.",
+            "Kinh tế hiện đại.",
+            "Kinh tế nông nghiệp."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Đánh giá về kết quả thực hiện nhiệm vụ phát triển kinh tế - xã hội, Đảng ta cho rằng: \"Một bộ phận sinh viên sau tốt nghiệp khó tìm được việc làm, tỷ lệ lao động khu vực phi chính thức còn lớn\". Nhận định đó thuộc nội dung nào sau đây?",
+        "options": [
+            "Về các vấn đề xã hội, môi trường.",
+            "Về cơ cấu lại nền kinh tế.",
+            "Về thực hiện các đột phá chiến lược.",
+            "Về quốc phòng an ninh và đối ngoại."
+        ],
+        "correct": 0
     }
 ];
 

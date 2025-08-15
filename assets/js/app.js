@@ -1,5 +1,5 @@
 /**
- * Quiz Application - Part-based Version
+ * Quiz Application - Part-based Version with Answer Randomization
  */
 class QuizApp {
     constructor() {
@@ -15,6 +15,8 @@ class QuizApp {
         this.questionsPerPart = 10;
         this.parts = [];
         this.currentPart = 0;
+        this.randomizeAnswers = true;
+        this.questionAnswerMaps = []; // Lưu mapping câu trả lời đã random
         
         this.init();
     }
@@ -98,11 +100,13 @@ class QuizApp {
     startQuiz() {
         const numQuestionsInput = document.getElementById('numQuestions');
         const questionsPerPartSelect = document.getElementById('questionsPerPart');
+        const randomizeAnswersCheckbox = document.getElementById('randomizeAnswers');
         
         if (!numQuestionsInput || !questionsPerPartSelect) return;
         
         const numQuestions = parseInt(numQuestionsInput.value);
         this.questionsPerPart = parseInt(questionsPerPartSelect.value);
+        this.randomizeAnswers = randomizeAnswersCheckbox ? randomizeAnswersCheckbox.checked : true;
         
         if (!this.validateInput(numQuestions)) {
             return;
@@ -127,6 +131,7 @@ class QuizApp {
 
     initializeQuiz(numQuestions) {
         this.currentQuestions = this.getRandomQuestions(questionBank, numQuestions);
+        this.processQuestionsWithRandomization();
         this.currentQuestionIndex = 0;
         this.userAnswers = new Array(this.currentQuestions.length).fill(null);
         this.markedQuestions = new Array(this.currentQuestions.length).fill(false);
@@ -142,9 +147,57 @@ class QuizApp {
         return shuffled.slice(0, count);
     }
 
+    // Xử lý random đáp án cho tất cả câu hỏi
+    processQuestionsWithRandomization() {
+        this.questionAnswerMaps = [];
+        
+        this.currentQuestions = this.currentQuestions.map((question, questionIndex) => {
+            if (this.randomizeAnswers) {
+                const { randomizedQuestion, answerMap } = this.randomizeQuestionAnswers(question);
+                this.questionAnswerMaps[questionIndex] = answerMap;
+                return randomizedQuestion;
+            } else {
+                // Nếu không random, tạo map tuần tự
+                this.questionAnswerMaps[questionIndex] = [0, 1, 2, 3];
+                return { ...question };
+            }
+        });
+    }
+
+    // Random thứ tự đáp án cho một câu hỏi
+    randomizeQuestionAnswers(question) {
+        const originalOptions = [...question.options];
+        const originalCorrect = question.correct;
+        
+        // Tạo array chứa index và shuffle
+        const indices = [0, 1, 2, 3];
+        for (let i = indices.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [indices[i], indices[j]] = [indices[j], indices[i]];
+        }
+        
+        // Sắp xếp lại options theo thứ tự mới
+        const randomizedOptions = indices.map(index => originalOptions[index]);
+        
+        // Tìm vị trí mới của đáp án đúng
+        const newCorrectIndex = indices.indexOf(originalCorrect);
+        
+        return {
+            randomizedQuestion: {
+                ...question,
+                options: randomizedOptions,
+                correct: newCorrectIndex
+            },
+            answerMap: indices // Map từ vị trí mới về vị trí cũ
+        };
+    }
+
     createParts() {
         this.parts = [];
         const totalQuestions = this.currentQuestions.length;
+        
+        // Đảm bảo ít nhất 1 part
+        if (totalQuestions === 0) return;
         
         for (let i = 0; i < totalQuestions; i += this.questionsPerPart) {
             const endIndex = Math.min(i + this.questionsPerPart, totalQuestions);
@@ -465,6 +518,7 @@ class QuizApp {
     }
 
     finishQuiz() {
+        // Chỉ kiểm tra câu thực sự chưa làm (chưa chọn đáp án)
         const unansweredCount = this.userAnswers.filter(answer => answer === null).length;
         
         if (unansweredCount > 0) {
@@ -618,7 +672,46 @@ let quizApp;
 
 document.addEventListener('DOMContentLoaded', function() {
     quizApp = new QuizApp();
+    
+    // Setup question count change handler
+    setTimeout(() => {
+        setupQuestionInputHandlers();
+    }, 100);
 });
+
+// Function xử lý thay đổi số câu hỏi
+function handleQuestionCountChange() {
+    const select = document.getElementById('numQuestionsSelect');
+    const input = document.getElementById('numQuestions');
+    
+    if (select.value && select.value !== 'custom') {
+        input.value = select.value;
+        input.disabled = true;
+    } else if (select.value === 'custom') {
+        input.disabled = false;
+        input.focus();
+        input.value = '';
+    } else {
+        input.disabled = false;
+    }
+}
+
+// Setup input handlers
+function setupQuestionInputHandlers() {
+    const input = document.getElementById('numQuestions');
+    const select = document.getElementById('numQuestionsSelect');
+    
+    if (input && select) {
+        input.addEventListener('input', function() {
+            if (this.value) {
+                select.value = '';
+            }
+        });
+        
+        // Khởi tạo trạng thái ban đầu
+        handleQuestionCountChange();
+    }
+}
 
 // Functions for HTML compatibility
 function startQuiz() {

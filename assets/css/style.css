@@ -14,7 +14,7 @@ body {
 
 /* Container */
 .container {
-    max-width: 600px; /* Thay đổi từ 1200px xuống 600px */
+    max-width: 1200px;
     margin: 0 auto;
     background: white;
     border-radius: 20px;
@@ -25,20 +25,20 @@ body {
 /* Header */
 .header {
     background: linear-gradient(45deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     color: white;
 }
 
 .header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 8px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 /* Content Area */
 .content {
-    padding: 40px;
+    padding: 20px;
 }
 
 /* Setup Screen */
@@ -61,6 +61,40 @@ body {
     margin-bottom: 10px;
     font-weight: 600;
     color: #555;
+}
+
+/* Checkbox Label */
+.input-group label input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+    accent-color: #667eea;
+}
+
+/* Input Options Container */
+.input-options {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input-options select,
+.input-options input {
+    width: 150px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    transition: border-color 0.3s ease;
+}
+
+.input-options select:focus,
+.input-options input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
 .input-group input,
@@ -102,24 +136,27 @@ body {
 }
 
 .btn-secondary {
-    background: #6c757d;
+    background: #17a2b8;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 10px 20px;
 }
 
 .btn-secondary:hover {
-    background: #5a6268;
+    background: #138496;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
 .btn-home {
-    background: #28a745 !important;
+    background: #37e25f !important;
     font-size: 14px;
     padding: 10px 20px;
     z-index: 10;
 }
 
 .btn-home:hover {
-    background: #218838 !important;
+    background: #27b045 !important;
 }
 
 .btn-mark {
@@ -155,6 +192,16 @@ body {
     align-items: center;
     margin-bottom: 20px;
     gap: 10px;
+}
+
+.left-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.left-buttons .btn {
+    font-size: 14px;
+    padding: 10px 20px;
 }
 
 /* Parts Navigation */
@@ -208,15 +255,15 @@ body {
 /* Quiz Main Content Layout */
 .quiz-main-content {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 /* Sidebar */
 .quiz-sidebar {
-    width: 250px;
+    width: 200px;
     background: #f8f9fa;
     border-radius: 12px;
-    padding: 20px;
+    padding: 15px;
     border: 2px solid #dee2e6;
     height: fit-content;
     position: sticky;
@@ -351,7 +398,7 @@ body {
 
 /* Question Section */
 .question-container {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .question-number {
@@ -361,10 +408,10 @@ body {
 }
 
 .question {
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 600;
     color: #333;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     line-height: 1.5;
 }
 
@@ -373,8 +420,8 @@ body {
 }
 
 .option {
-    margin-bottom: 15px;
-    padding: 15px;
+    margin-bottom: 10px;
+    padding: 12px;
     border: 2px solid #e0e0e0;
     border-radius: 12px;
     cursor: pointer;
@@ -404,12 +451,6 @@ body {
     border-color: #dc3545;
     background: #f8d7da;
     color: #721c24;
-}
-
-/* Mark Later Section */
-.mark-later-section {
-    text-align: center;
-    margin: 20px 0;
 }
 
 /* Navigation */
@@ -588,6 +629,29 @@ body {
     .quiz-header .btn {
         width: 100%;
         max-width: 200px;
+    }
+    
+    /* Responsive cho left-buttons */
+    .left-buttons {
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+    
+    .left-buttons .btn {
+        width: 100%;
+        max-width: 180px;
+    }
+    
+    /* Responsive cho input options */
+    .input-options {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .input-options select,
+    .input-options input {
+        width: 180px;
     }
     
     .parts-grid {

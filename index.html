@@ -19,7 +19,17 @@
                 <h2>Thiết Lập Quiz</h2>
                 <div class="input-group">
                     <label for="numQuestions">Số câu hỏi muốn làm:</label>
-                    <input type="number" id="numQuestions" min="1" max="50" value="5">
+                    <div class="input-options">
+                        <select id="numQuestionsSelect" onchange="handleQuestionCountChange()">
+                            <option value="">Chọn sẵn</option>
+                            <option value="5">5 câu</option>
+                            <option value="10">10 câu</option>
+                            <option value="15">15 câu</option>
+                            <option value="20">20 câu</option>
+                            <option value="custom">Tự nhập</option>
+                        </select>
+                        <input type="number" id="numQuestions" min="1" max="50" value="5" placeholder="Hoặc nhập số">
+                    </div>
                 </div>
                 <div class="input-group">
                     <label for="questionsPerPart">Số câu mỗi phần:</label>
@@ -30,6 +40,12 @@
                         <option value="20">20 câu/phần</option>
                     </select>
                 </div>
+                <div class="input-group">
+                    <label for="randomizeAnswers">
+                        <input type="checkbox" id="randomizeAnswers" checked>
+                        Xáo trộn thứ tự đáp án
+                    </label>
+                </div>
                 <button class="btn" onclick="startQuiz()">Bắt Đầu Quiz</button>
                 <p class="info-text">Tổng cộng có <span id="totalQuestions">0</span> câu hỏi trong ngân hàng</p>
             </div>
@@ -38,13 +54,15 @@
             <div class="quiz-screen" id="quizScreen" style="display: none;">
                 <!-- Header với nút về trang chủ -->
                 <div class="quiz-header">
-                    <button class="btn btn-home" id="homeBtn">🏠 Trang Chủ</button>
+                    <div class="left-buttons">
+                        <button class="btn btn-home" id="homeBtn">🏠 Trang Chủ</button>
+                        <button class="btn btn-mark" id="markLaterBtn">🔖 Đánh dấu làm sau</button>
+                    </div>
                     <button class="btn btn-secondary" id="questionPanelBtn">📋 Toggle Sidebar</button>
                 </div>
 
                 <!-- Parts Navigation (Phần 1, Phần 2...) -->
                 <div class="parts-navigation" id="partsNavigation">
-                    <h4>Chọn phần:</h4>
                     <div class="parts-grid" id="partsGrid"></div>
                 </div>
 
@@ -89,11 +107,6 @@
                             <div class="question-number" id="questionNumber"></div>
                             <div class="question" id="questionText"></div>
                             <ul class="options" id="optionsList"></ul>
-                            
-                            <!-- Nút đánh dấu làm sau -->
-                            <div class="mark-later-section">
-                                <button class="btn btn-mark" id="markLaterBtn">🔖 Đánh dấu làm sau</button>
-                            </div>
                         </div>
                         
                         <div class="navigation">
